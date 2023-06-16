@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gfriend Album</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Gfriend Album Time For The Moon Night</h2>
+                <p class="sub-heading">Album</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="text-feature">Concept Photo 1</h4>
+                <!-- <p class="item">Concept Photo 1</p> -->
+            </div>
+            <div class="features feature-2">
+                <h4 class="text-feature">Concept Photo 2</h4>
+                <!-- <p class="item">Concept Photo 2</p> -->
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="brand">
+                <h1>Gfriend Album</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <h2>Music</h2>
+            <div class="service">
+                <div class="icon">
+                    <a href="https://open.spotify.com/album/4YkF0cmnD2nmzdpLk1ZUUP?si=TkZE3FKQTHqwN_kQorOqGg"><img src="img/icon.jpeg" alt="icon"></a>
+                </div>
+                <h5>Time For The Moon Night</h5>
+                <p>By GFRIEND</p>
+            </div>
+            <div class="service">
+                <div class="icon">
+                    <a href="https://open.spotify.com/album/4YkF0cmnD2nmzdpLk1ZUUP?si=TkZE3FKQTHqwN_kQorOqGg"><img src="img/icon.jpeg" alt="icon"></a>
+                </div>
+                <h5>Love Bug</h5>
+                <p>By GFRIEND</p>
+            </div>
+            <div class="service">
+                <div class="icon">
+                    <a href="https://open.spotify.com/album/4YkF0cmnD2nmzdpLk1ZUUP?si=TkZE3FKQTHqwN_kQorOqGg"><img src="img/icon.jpeg" alt="icon"></a>
+                </div>
+                <h5>Flower Garden</h5>
+                <p>By GFRIEND</p>
+            </div>
+            <div class="service">
+                <div class="icon">
+                    <a href="https://open.spotify.com/album/4YkF0cmnD2nmzdpLk1ZUUP?si=TkZE3FKQTHqwN_kQorOqGg"><img src="img/icon.jpeg" alt="icon"></a>
+                </div>
+                <h5>Tik Tik</h5>
+                <p>By GFRIEND</p>
+            </div>
+            <div class="service">
+                <div class="icon">
+                    <a href="https://open.spotify.com/album/4YkF0cmnD2nmzdpLk1ZUUP?si=TkZE3FKQTHqwN_kQorOqGg"><img src="img/icon.jpeg" alt="icon"></a>
+                </div>
+                <h5>Bye</h5>
+                <p>By GFRIEND</p>
+            </div>
+            <div class="service">
+                <div class="icon">
+                    <a href="https://open.spotify.com/album/4YkF0cmnD2nmzdpLk1ZUUP?si=TkZE3FKQTHqwN_kQorOqGg"><img src="img/icon.jpeg" alt="icon"></a>
+                </div>
+                <h5>You Are My Star</h5>
+                <p>By GFRIEND</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Member</h2>
+            <div class="img">
+                <a href="https://www.instagram.com/onedayxne" target="_blank"><img src="img/sowon.jpeg" alt="sowon" title="Sowon"></a>
+            </div>
+            <div class="img">
+                <a href="https://www.instagram.com/every__nn" target="_blank"><img src="img/yerin.jpeg" alt="yerin" title="yerin"></a>
+            </div>
+            <div class="img">
+                <a href="https://www.instagram.com/rlo.ldl" target="_blank"><img src="img/Eunha.jpeg" alt="eunha" title="eunha"></a>
+            </div>
+            <div class="img">
+                <a href="https://www.instagram.com/yuuzth" target="_blank"><img src="img/Yuju.jpeg" alt="yuju" title="yuju"></a>
+            </div>
+            <div class="img">
+                <a href="https://www.instagram.com/bscenez" target="_blank"><img src="img/sinb.jpeg" alt="sinb" title="sinb"></a>
+            </div>
+            <div class="img">
+                <a href="https://www.instagram.com/ummmmm_j.i" target="_blank"><img src="img/Umji.jpeg" alt="umji" title="umji"></a>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+</html>
